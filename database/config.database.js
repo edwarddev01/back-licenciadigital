@@ -9,9 +9,9 @@ const config = {
     logging: false,
   },
   production: {
-    host: "5.161.77.171",
-    database: "",
-    username: "",
+    host: "5.161.124.16",
+    database: "app_lice1_cmr",
+    username: "app_lice1_admincmr",
     password: "Lorica2021+*",
     port: 3306,
     dialect: "mysql",
