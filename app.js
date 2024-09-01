@@ -57,7 +57,7 @@ app.use("/api/v1", saleRouter);
 app.use("/api/v1", dashboardRouter);
 
 // Inicializamos el servidor y la conexion a la base de datos
-const port = process.env.PORT || 3100;
+const port = process.env.PORT || 3300;
 app.listen(port, async () => {
   try {
     console.log(`Servidor inicializado en el puerto: ${port}`);
